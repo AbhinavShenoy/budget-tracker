@@ -1,0 +1,358 @@
+* {
+  font-family: 'Roboto', sans-serif;  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*#logo {
+  top: 10%;
+}*/
+
+
+#title {
+  padding-left: 215px;
+  padding-top: 20px;
+}
+
+#pig {
+  /*text-shadow: -0.5px 0 #A8425A, 0 0.5px #A8425A, 0.5px 0 #A8425A, 0 0.5px #A8425A;*/
+  color:#688782;
+  padding-left: 215px;
+}
+
+h1 {
+  color: #6C6C6C;
+  text-align: center;
+  /*text-shadow: -1px 0 #6B6B6B, 0 1px #6B6B6B, 1px 0 #6B6B6B, 0 -1px #6B6B6B;*/
+  margin-top: 40px;
+  font-size: 2.5em;
+}
+
+#ei-1 h3 {
+  font-weight: 100;
+  width: 650px;
+  background-color: #F5F7FA;
+  text-align: center;
+  /*border: 1px;*/
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 3px 0px 0px 0px #C6C6C6;
+  font-weight: bold;
+  padding: 8px;
+  color: #6C6C6C;
+}
+
+#ei-2 h3 {
+  font-weight: 100;
+  width: 650px;
+  background-color: #F5F7FA;
+  text-align: center;
+  /*border: 1px;*/
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 3px 0px 0px 0px #C6C6C6;
+  font-weight: bold;
+  padding: 8px;
+  color: #6C6C6C;
+}
+
+#container-form {
+  width: 800px;
+  background: #ffffff;
+  /*text-align: center;*/
+  /*vertical-align: center;*/
+  /*margin: auto;*/
+  border-radius: 2  px;
+  padding: 40px 50px;
+  /*box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  height: 597px; /* or any value */
+  overflow-y: auto;
+  /*overflow: scroll;*/
+}
+
+#balance {
+  margin-top: -40px;
+  margin-right: 22px;
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+#expense-income {
+  margin-top: 10px;
+  text-align: center;
+  color: #6C6C6C;
+
+}
+
+#expense-income > input[type=radio] {
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+}
+
+.toHide {
+  display: none;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.container div {
+  display: inline-block;
+}
+
+#ei-1 {
+  margin-top: 30px;
+  /*border-radius: 3px;*/
+}
+
+#ei-2 {
+  display: none;
+  /*border-radius: 3px;*/
+}
+
+#total-balance {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+body {
+  background: #f2f2f2;
+}
+  
+table {
+  text-align: left;
+  width: 640px;
+  margin: 30px auto;
+  border-radius: 1em;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 3px 3px #C6C6C6;
+  color: #6C6C6C;
+  /*border-collapse: collapse;*/
+}
+
+table th {
+  padding: 10px;
+  border: 1px ;
+}
+
+table tr:nth-child(odd) {
+  background-color: #F5F7FA;
+  border: 1px ;
+}
+
+table td {
+  padding: 10px 15px;
+  color: #434A54;
+  border: 1px ;
+}
+
+
+.amount1 {
+  color: #DA4453;
+  text-align: left;
+}
+
+.amount2 {
+  color:  #228B22;
+  text-align: left;
+}
+    
+#button {
+  position: relative;
+  top: 0;
+  color: #F5F7FA;
+  padding: 5px;
+  text-align: center;
+  line-height: 24px;
+  width: 150px;
+  background-color: #688782;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 30px auto;
+  text-transform: uppercase;
+  /*box-shadow: 0 3px #4A89DC;*/
+  transition: 0.1s ease;
+
+}
+
+#button:active {
+  position: relative;
+  /*box-shadow: 0 0px #4A89DC;*/
+  top: 3px;
+  /*box-shadow: 0 0;*/
+  background-color: #688782;
+}
+
+#logo {
+  display: inline-block;
+}
+
+#div-buttons {
+  transition: 0.1s ease;
+  float: right;
+  display: inline;
+  margin-right: 220px;
+  margin-top: 28px;
+}
+
+#logout {
+  color: #F5F7FA;
+  padding: 5px;
+  text-align: center;
+  line-height: 24px;
+  width: 150px;
+  background-color: #9E9E9E;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  /*box-shadow: 0 3px #4A89DC;*/
+  /*transition: 0.1s ease;
+  float: right;
+  display: inline;
+  margin-right: 220px;
+  margin-top: 28px;*/
+}
+
+#graph-btn {
+  color: #F5F7FA;
+  padding: 5px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 24px;
+  width: 150px;
+  background-color: #688782;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* The Modal (background) */
+#modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 80px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  border: 1px solid #888;
+  width: 70%;
+}
+
+/* The Close Button */
+#close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close:hover, #close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#form-box-1 {
+  width: 650px;
+  margin: auto;
+  padding-left: 15px;
+  background-color: #ffffff;
+  /*border: 1px;*/
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 3px 3px #C6C6C6;
+}
+
+#form-box-2 {
+  width: 650px;
+  margin: auto;
+  padding-left: 15px;
+  background-color: #ffffff;
+  /*border: 1px;*/
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 3px 3px #C6C6C6;
+  display: none;
+}
+
+form {
+  color: #6B6B6B;
+}
+
+form select {
+  margin-bottom: 25px;
+  color: #434A54;
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  padding: 5px;
+  width: 200px;
+  border-radius: 6px;
+  border: 0; 
+}
+
+form input {
+  margin-bottom: 25px;
+  color: #434A54;
+  padding: 5px;
+  width: 200px;
+  border-radius: 6px;
+  border: 0; 
+  background-color: #F8F8F8;
+}
+
+form select, input:active {
+  transition: 0.2s ease;
+}
+
+form div {
+  display: inline-block;
+  margin-right: 40px;
+  margin-left: 55px;
+  margin-top: 10px;
+}
+
+form span {
+  font-size: 1em;
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+#type {
+  width: 50px;
+}
+  
+#date {
+  width: 180px;
+}
+  
+#amount {
+  text-align: left;
+  width: 100px;
+}
+    
+#if-empty {
+  text-align: center;
+}
